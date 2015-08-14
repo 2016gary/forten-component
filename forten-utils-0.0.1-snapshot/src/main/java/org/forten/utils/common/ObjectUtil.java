@@ -68,7 +68,7 @@ public abstract class ObjectUtil {
 	 *            值列表
 	 * @return 返回值列表中最小的值
 	 */
-	public static <T extends Comparable<T>> T min(T... values) {
+	public static <T extends Comparable<T>> T min(T[] values) {
 		T result = null;
 		if (values != null) {
 			for (T value : values) {
@@ -87,7 +87,7 @@ public abstract class ObjectUtil {
 	 *            值列表
 	 * @return 返回值列表中最大的值
 	 */
-	public static <T extends Comparable<T>> T max(T... values) {
+	public static <T extends Comparable<T>> T max(T[] values) {
 		T result = null;
 		if (values != null) {
 			for (T value : values) {
